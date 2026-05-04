@@ -1,8 +1,8 @@
 # Stripe API Specification vs Runtime Behavior Inconsistencies
 
 [![Research Status](https://img.shields.io/badge/status-active-brightgreen)]()
-[![Stripe API Version](https://img.shields.io/badge/Stripe%20API-2025--02--24.acacia-blue)]()
-[![License](https://img.shields.io/badge/license-MIT-lightgrey)]()
+[![Stripe API Version](https://img.shields.io/badge/Stripe%20API-latest-blue)]()
+
 
 ---
 

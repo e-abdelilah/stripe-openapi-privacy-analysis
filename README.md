@@ -3,7 +3,7 @@
 
 # Overview
 
-This repository documents inconsistencies between Stripe’s published API specifications / documentation and the real runtime behavior observed during testing.
+This repository documents inconsistencies between [Stripe](https://stripe.com)’s published API specifications / documentation and the real runtime behavior observed during testing.
 
 The goal is to identify where the documented contract differs from actual responses, hidden requirements, privacy-impacting behavior, deletion semantics, and security assumptions.
 
@@ -15,7 +15,7 @@ This repository is structured :
 
 # Main Objectives
 
-- Compare OpenAPI specs vs real Stripe API behavior
+- Compare OpenAPI specs vs real [Stripe](https://stripe.com) API behavior
 - Detect undocumented fields or hidden workflows
 - Analyze privacy / GDPR implications
 - Identify deletion vs retention inconsistencies
@@ -27,7 +27,7 @@ This repository is structured :
 
 # Why Stripe as Use Case
 
-Stripe is used because it is:
+[Stripe](https://stripe.com) is used because it is:
 
 - globally adopted
 - heavily documented
@@ -36,12 +36,12 @@ Stripe is used because it is:
 - integrated by thousands of developers
 - suitable for trust-boundary analysis
 
-Stripe serves as a strong real-world case study for API specification reliability.
+[Stripe](https://stripe.com) serves as a strong real-world case study for API specification reliability.
 
 ---
 
 # Stripe High-Level Architecture
-Stripe operates as a multi-layer payment and financial infrastructure platform that connects merchants, customers, banks, and payment networks through APIs.
+[Stripe](https://stripe.com) operates as a multi-layer payment and financial infrastructure platform that connects merchants, customers, banks, and payment networks through APIs.
 Its architecture is designed around modular services, event-driven workflows, secure tokenization, and compliance controls.
 <br>  </br>
 
@@ -80,3 +80,20 @@ Certain capability states may appear simple in documentation while runtime workf
 
 [Hidden Data Collection Requirements](inconsistencies/hidden-data-collection-requirements/README.md)
 
+# References & Resources
+
+- Stripe API Documentation  
+  https://stripe.com/docs/api 
+  
+- OpenAPI Specification (Official Site)  
+  https://www.openapis.org/
+
+- GDPR (Official EU Law)  
+  https://gdpr-info.eu/
+  
+### Notes
+These references are used to:
+- validate API specification expectations  
+- assess privacy and compliance implications  
+- compare documentation against regulatory requirements  
+- support reproducible research methodology

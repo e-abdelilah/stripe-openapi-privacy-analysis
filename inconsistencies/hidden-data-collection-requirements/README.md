@@ -11,7 +11,7 @@
 6. [Classification](#classification)
 7. [OpenAPI Enrichment Solution](#openapi-enrichment-solution)
    - [7.1 What is OpenAPI Enrichment?](#71-what-is-openapi-enrichment)
-   - [7.2 The Five Enrichments](#72-the-five-enrichments)
+   - [7.2 OpenApi Enrichments](#72-openapi-enrichments)
      - [Enrichment 1: Expand the Description](#enrichment-1-expand-the-description)
      - [Enrichment 2: Add x-activation-requirements](#enrichment-2-add-x-activation-requirements)
      - [Enrichment 3: Add Privacy Labels](#enrichment-3-add-privacy-labels)
@@ -234,7 +234,7 @@ ORIGINAL SPEC (incomplete):              ENRICHED SPEC (complete):
 
 ---
 
-### 7.2 The Five Enrichments
+### 7.2 OpenApi Enrichments
 
 Each enrichment solves one specific problem discovered during the audit.
 

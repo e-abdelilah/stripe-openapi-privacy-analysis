@@ -369,12 +369,6 @@ x-gdpr-articles:
 
 **Where it goes:** New fields directly under the capability.
 
-```
-
-**What this enables:** Every discrepancy is documented with evidence. You can programmatically extract all findings from the spec. Your internship report has verifiable data.
-
-**Where it goes:** New `x-observed-vs-spec` field under the capability.
-
 ---
 
 #### Enrichment 4: Add Consent Requirements
